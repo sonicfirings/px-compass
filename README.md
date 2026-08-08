@@ -26,6 +26,10 @@ Create a production build with:
 npm run build
 ```
 
+## Deploy on Vercel
+
+Import this repository into Vercel and keep the detected framework preset set to **Next.js**. The root directory is `./`, and no environment variables or custom build settings are required.
+
 ## Disclaimer
 
 PX Compass is an independent community resource. It is not affiliated with or endorsed by PrismaX. PrismaX names, logos, and brand-kit assets belong to their respective owner and are used to direct users to official PrismaX resources.

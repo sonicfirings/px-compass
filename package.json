@@ -1,12 +1,12 @@
 {
-  "name": "prismax-navigator",
+  "name": "px-compass",
   "version": "1.0.0",
   "private": true,
   "engines": { "node": ">=22.13.0" },
   "scripts": {
-    "dev": "vinext dev",
-    "build": "vinext build",
-    "start": "vinext start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
