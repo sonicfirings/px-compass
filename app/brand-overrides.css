@@ -1,0 +1,101 @@
+/* PrismaX official primary palette: Black #202020, Cream #DFD8D0, White #FFFFFF */
+:root {
+  --ink: #202020;
+  --ink-soft: #202020;
+  --paper: #dfd8d0;
+  --white: #ffffff;
+  --line: rgba(32, 32, 32, 0.24);
+  --muted: rgba(32, 32, 32, 0.64);
+  --acid: #ffffff;
+  --blue: #dfd8d0;
+}
+
+.site-header,
+footer {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.brand-mark i { background: #ffffff; }
+.brand-divider { color: rgba(255, 255, 255, 0.26); }
+.brand-muted,
+.desktop-nav { color: rgba(255, 255, 255, 0.62); }
+
+.signal-pill,
+.hero-panel,
+.map-node,
+.panel-stats,
+.panel-stats div,
+.text-link,
+.steps,
+.steps > a,
+.social-links,
+.social-links a,
+.community-strip,
+footer {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.signal-pill,
+.hero-lede,
+.panel-topline,
+.panel-stats span,
+.resource-intro p,
+.steps p,
+footer p {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.signal-pill span { box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1); }
+.hero-grid { background-image: linear-gradient(rgba(255,255,255,.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.5) 1px, transparent 1px); }
+.hero-panel { background: rgba(32, 32, 32, 0.94); }
+.orbit { border-color: rgba(255, 255, 255, 0.18); }
+.orbit-center { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.08); }
+.map-node { background: #202020; color: rgba(255, 255, 255, 0.72); }
+.map-node::before { background: #dfd8d0; }
+
+.primary-button:hover,
+.header-cta:hover,
+.ticker,
+.saved-toggle.active,
+.story-list a:hover,
+.social-links a:hover {
+  background: #dfd8d0;
+}
+
+.section-kicker { color: rgba(32, 32, 32, 0.6); }
+.section-kicker.light,
+.live-indicator,
+.steps > a > span,
+.resource-intro > a,
+.social-links a > span:first-child {
+  color: #ffffff;
+}
+
+.path-card:hover p { color: rgba(255, 255, 255, 0.62); }
+.path-card:hover .path-meta span:last-child,
+.path-card:hover .path-action { border-color: rgba(255, 255, 255, 0.22); }
+.path-card:hover .path-action { color: #ffffff; }
+
+.results-bar span:last-child::before { background: #202020; }
+.bookmark:hover,
+.bookmark.saved { color: #202020; background: transparent; }
+.bookmark { color: rgba(32, 32, 32, 0.28); }
+.destination-card > a:hover { color: #202020; }
+.destination-card > a { border-color: rgba(32, 32, 32, 0.14); }
+
+.story-visual { background: #dfd8d0; }
+.story-visual::before,
+.story-visual::after { border-color: rgba(32, 32, 32, 0.42); }
+.community-strip { background: #202020; }
+.social-links a:hover > span:first-child { color: #202020; border-color: #202020; }
+
+.carousel-controls,
+.carousel-arrows button { border-color: rgba(255, 255, 255, 0.2); }
+.carousel-current span { color: rgba(255, 255, 255, 0.55); }
+.carousel-current strong,
+.carousel-arrows button { color: #ffffff; }
+.carousel-dots button { background: rgba(255, 255, 255, 0.28); }
+.carousel-dots button.active { background: #ffffff; }
+.carousel-arrows button:hover { background: #ffffff; color: #202020; }
+
+::selection { background: #202020; color: #ffffff; }
